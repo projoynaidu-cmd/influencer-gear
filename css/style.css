@@ -260,3 +260,75 @@ body {
         object-fit: contain;
     }
 }
+
+/* popular section style */
+.popular-collection{
+    /* background-color: red; */
+    /* display: block; */
+    margin: 0 auto;
+    width: 90%;
+}
+.popular-collection .heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #272727;
+}
+.wrapper{
+    margin-top: 50px ;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    
+}
+.card{
+    box-shadow: 5px 5px 10px 5px rgb(218, 225, 228);
+    border-radius: 10px;
+    padding: 20px;
+    text-transform: capitalize;
+    background: #fff;
+    transition: all 05s ease-in-out;
+}
+/* Fix card hover */
+.card:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+}
+.card img{
+    width: 100%;
+    border-radius: 7px;
+    
+}
+.card h3{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 5px ;
+
+}
+.card p{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+/* featured style section  */
+
+.featured{
+    margin-top: 60px;
+    max-width: 1240px;
+    margin: 0 auto;
+    background-color: red;padding: 20px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: greenyellow; */
+    gap: 40px;
+}
+.right img{
+    width: 100%;
+
+}
